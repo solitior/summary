@@ -1,0 +1,262 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,300;0,400;0,700;1,300&display=swap" rel="stylesheet">
+    <link rel="apple-touch-icon" sizes="180x180" href="apple-touch-icon.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="favicon-16x16.png">
+    <link rel="manifest" href="site.webmanifest">
+    <link rel="mask-icon" href="safari-pinned-tab.svg" color="#5bbad5">
+    <meta name="msapplication-TileColor" content="#b0b0b0">
+    <meta name="theme-color" content="#ffffff">
+    <title>Portfolio</title>
+    <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+   <header class="header">
+       <div class="container">
+           <div class="header_inner">
+               <div class="user">
+                  <img class ="user_avatar" src="images/Screenshot_1.png" alt=""> 
+                  <div class="user_content">
+                      <div class="user_name">Evgeny<br> Reut</div>
+                      <div class="user_prof">Junior Web Developer</div>
+                    </div>
+                </div>
+
+                <div class="nav" id="nav">
+                    <a class="nav_link" href="#" data-scroll="#work">work</a>
+                    <a class="nav_link" href="#" data-scroll="#about">about me</a>
+                    <a class="nav_link" href="#" data-scroll="#courses">block</a>
+                    <a class="nav_link" href="mailto:tdutybqhten@mail.ru">contact</a>
+                </div>
+           </div>
+       </div>
+   </header>
+
+   <div class="intro">
+       <div class="container">
+           <div class="intro_inner">
+               <div class="intro_content">
+                   <h2 class="intro_subtitle">Hello i'm</h2>
+                   <h1 class="intro_title">Evgeny Reut</h1>
+                   <div class="intro_text">Junior Developer</div>
+
+                   <div class="social">
+                       <a class="social_link" href="https://t.me/tumturum" target="blank">
+                           <img src="images/telegram.png"/>
+                       </a>
+                       <a class="social_link" href="https://www.instagram.com/solitior" target="blank">
+                           <img src="images/instagram.png"/>
+                       </a>
+                       <a class="social_link" href="https://www.linkedin.com/in/евгений-реут-445888208/" target="blank">
+                           <img src="images/linkedin.png"/>
+                       </a>
+                       <a class="social_link" href="https://vk.com/id154797949" target="blank">
+                           <img src="images/vk.png"/>
+                       </a>
+                   </div>
+
+                   <button class="btn" type="button" data-modal="#modal_resume">MODAL</button>
+               </div>
+
+               <img class="main_photo" src="images/main_photo.jpg" alt="">
+           </div>
+       </div>
+   </div>
+
+   <div class="works" id="work">
+       <div class="container">
+           <h3 class="text_center">My works</h3>
+
+           <div class="portfolio">
+                <div class="work">
+                    <img class="work_photo" src="images/work logo.png" alt="">
+                    <div class="work_content">
+                        <div class="work_cat"><s>category: website</s></div>
+                        <div class="work_title">
+                            The place for your project!
+                            <div class="work_date"><s>2022</s></div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="work">
+                    <img class="work_photo" src="images/work logo.png" alt="">
+                    <div class="work_content">
+                        <div class="work_cat"><s>category: website</s></div>
+                        <div class="work_title">
+                            The place for your project!
+                            <div class="work_date"><s>2022</s></div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="work">
+                    <img class="work_photo" src="images/work logo.png" alt="">
+                    <div class="work_content">
+                        <div class="work_cat"><s>category: website</s></div>
+                        <div class="work_title">
+                            The place for your project!
+                            <div class="work_date"><s>2022</s></div>
+                        </div>
+                    </div>
+                </div>
+           </div>
+       </div>
+   </div>
+
+   <div class="about" id="about">
+       <div class="container">
+           <div class="about_inner">
+               <img class="about_photo" src="images/main_photo.jpg" alt="">
+
+               <div class="about_content">
+                    <h3 class="about_title">about me</h3>
+                    <h2 class="about_bigtitle">who am i</h2>
+                    <div class="about_text">
+                        <p>Graduate of Minsk Innovative University. I want to develop JavaScript skills, for this I am looking for a company to start my career.Stress resistant, easy to learn, sociable and creative. If you are looking for such an employee, then write to me.</p>
+                        <p>In my free time I like to play the guitar or watch movies.</p>
+                    </div>
+                   <button class="btn" type="button" data-modal="#modal_resume">MODAL</button>
+
+               </div>
+           </div>
+       </div>
+   </div>
+   <div class="reviews">
+       <div class="container">
+           <div class="reviews_inner">
+               <div class="reviews_text">
+                   <p>One of the courses on Udemy helped me in creating this site.</p>
+                   <p>While I am looking for a job, I will take more courses and improve my knowledge.</p>
+               </div>
+
+               <div class="reviews_autor">
+                   <img src="images/Screenshot_1.png" alt="">
+                   <div class="reviews_company">Udemy</div>
+                   <div class="reviews_name">Student</div>
+                   <div class="reviews_rating">
+                       <img class="reviews_star" src="images/star.png" alt="">
+                       <img class="reviews_star" src="images/star.png" alt="">
+                       <img class="reviews_star" src="images/star.png" alt="">
+                       <img class="reviews_star" src="images/star.png" alt="">
+                       <img class="reviews_star" src="images/star.png" alt="">
+                   </div>
+               </div>
+           </div>
+       </div>
+   </div>
+   
+   <div class="courses" id="courses">
+       <div class="container">
+           <h3 class="text_center margin">My education</h3>
+           <div class="subtitle">wanna find a job</div>
+
+            <div class="courses_inner">
+                <div class="course">
+                    <img class="course_photo" src="images/course.jpg" alt="">
+
+                    <div class="course_content">
+                        <h4 class ="course_name">Stormnet</h4>
+                        <div class="course_cat">QA engineer</div>
+                        <div class="course_text">
+                            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Labore explicabo odio modi! Et velit iusto eligendi quaerat laudantium facilis architecto quibusdam perspiciatis consequatur ducimus nobis mollitia dicta adipisci, omnis expedita.</p>
+                        </div>
+                    </div>
+
+                    <a href="https://www.it-courses.by" target="blank">
+                        <button class="btn btn_edit">SHOW MORE</button>
+                    </a>
+                </div>
+
+                <div class="course">
+                    <img class="course_photo" src="images/MIU.jpg" alt="">
+
+                    <div class="course_content">
+                        <h4 class ="course_name">Minsk Innovation University</h4>
+                        <div class="course_cat">Programmer engineer</div>
+                        <div class="course_text">
+                            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Labore explicabo odio modi! Et velit iusto eligendi quaerat laudantium facilis architecto quibusdam perspiciatis consequatur ducimus nobis mollitia dicta adipisci, omnis expedita.</p>
+                        </div>
+                    </div>
+
+                    <a href="http://miu.by" target="blank">
+                        <button class="btn btn_edit">SHOW MORE</button>
+                    </a>
+                </div>
+                
+                <div class="course">
+                    <img class="course_photo" src="images/udemy.png" alt="">
+
+                    <div class="course_content">
+                        <h4 class ="course_name">Udemy</h4>
+                        <div class="course_cat">Javascript developer</div>
+                        <div class="course_text">
+                            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Labore explicabo odio modi! Et velit iusto eligendi quaerat laudantium facilis architecto quibusdam perspiciatis consequatur ducimus nobis mollitia dicta adipisci, omnis expedita.</p>
+                        </div>
+                    </div>
+
+                    <a href="https://www.udemy.com" target="blank">
+                        <button class="btn btn_edit">SHOW MORE</button>
+                    </a>
+                </div>
+           </div>
+
+           <div class="link"> 
+               <a class="courses_link" href="/random.html">See random html</a>
+            </div>
+       </div>
+   </div>
+
+   <footer class="footer">
+       <div class="container">
+           <div class="footer_inner">
+               <div class="footer_info">
+                   <div class="footer_copyright">
+                       &copy; 2022 - Reut Evgeny
+                   </div>
+                   <div class="footer_social">
+                       <a class="footer_link" href="https://www.linkedin.com/in/евгений-реут-445888208/" target="blank">
+                           <img src="images/linkedin_icon.png" alt="">
+                       </a>
+                   </div>
+                   <div class="footer_social">
+                       <a class="footer_link" href="https://www.instagram.com/solitior" target="blank">
+                           <img src="images/instagram_icon.png" alt="">
+                       </a>
+                   </div>
+                   <div class="footer_social">
+                       <a class="footer_link" href="https://t.me/tumturum" target="blank">
+                           <img class="telegram_fix" src="images/telegram_icon.png" alt="">
+                       </a>
+                   </div>
+               </div>
+
+               <div class="footer_nav">
+                    <a class="footer_nav_link" href="#" data-scroll="#work">work</a>
+                    <a class="footer_nav_link" href="#" data-scroll="#about">about me</a>
+                    <a class="footer_nav_link" href="#" data-scroll="#courses">block</a>
+                    <a class="footer_nav_link" href="mailto:tdutybqhten@mail.ru">contact</a>  
+               </div>
+           </div>
+       </div>
+   </footer>
+
+   <div class="modal" id="modal_resume">
+       <div class="modal_dialog">
+           <h3 class="modal_title">Пример модального окна</h3>
+           <img class="modal_photo" src="images/Modal.png" alt="">
+           <a class="btn btn_edit btn_modal" href="images/Modal.png" download=""> download</a>
+       </div>
+   </div>
+
+   <script src="app.js"></script>
+</body>
+</html>
